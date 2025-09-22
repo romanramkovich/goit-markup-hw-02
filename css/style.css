@@ -4,6 +4,8 @@
   --accent-color: #2196f3;
   --white-color: #ffffff;
   --grey-color: #F5F4FA;
+  --dark-bg-color: #2F303A;
+
 
 }
 
@@ -21,10 +23,14 @@ body {
 }
 
 h1 {
+  color: var(--white-color);
   font-size: 44px;
   font-weight: 900;
   letter-spacing: 0.06em;
   line-height: 1.36;
+
+    text-transform: uppercase;
+
 }
 
 a {
@@ -48,6 +54,11 @@ a {
 }
 
 /* Site anv */
+.nav {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
 .nav-link {
   color: var(--primary-text-color);
 }
@@ -68,6 +79,7 @@ a {
 /* Hero */
 .hero {
   text-align: center;
+  background-color: var(--dark-bg-color);
 }
 
 .button {
@@ -76,9 +88,9 @@ a {
   border-color: transparent;
 
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
-
 cursor: pointer;
 }
 
@@ -96,7 +108,7 @@ cursor: pointer;
 p {
   color: var(--secondary-text-color);
   font-weight: 400;
-  line-height: 1,71;
+  line-height: 2;
 }
 
 .section-title {
@@ -105,6 +117,12 @@ p {
   line-height: 1;
   letter-spacing: 0.03em;
   text-align: center;
+}
+
+/* Team */
+
+.section-team {
+  background-color: var(--grey-color);
 }
 
 .team {
@@ -128,6 +146,7 @@ letter-spacing: 0.03em;
 font-style: normal;
 
 color: var(--white-color);
+background-color: var(--dark-bg-color);
 }
 
 .footer-link {

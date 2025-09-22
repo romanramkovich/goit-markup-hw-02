@@ -149,6 +149,10 @@ color: var(--white-color);
 background-color: var(--dark-bg-color);
 }
 
+.footer-accent {
+  color: var(--white-color);
+}
+
 .footer-link {
   color: var(--white-color);
 }

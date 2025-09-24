@@ -84,6 +84,7 @@ a {
   background-color: var(--accent-color);
   border-color: transparent;
 
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 700;
   line-height: 1.88;
@@ -170,7 +171,7 @@ font-size: 16px;
 
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 63;
+  line-height: 1.63;
   letter-spacing: 0.03em;
   text-align: center;
 
